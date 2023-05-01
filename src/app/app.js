@@ -9,7 +9,7 @@ const routes = require("../routes/index")
 app.use(express.urlencoded({extended: false}));
 app.use(cors({
     origin: [
-        "http://localhost:3000"
+        "https://giftstore-client.onrender.com"
     ]
 }));
 app.use(express.json());
